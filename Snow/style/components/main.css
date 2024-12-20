@@ -1,0 +1,49 @@
+.main {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../../images/home.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-inner {
+	color: #ffffff;
+	text-align: center;
+}
+
+.main-inner > span {
+	display: block;
+}
+
+.main-title {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+
+.main-subtitle {
+	font-size: 50px;
+	line-height: 1.3;
+	font-family: Playfair Display, serif;
+}
+
+.main-subtitle--italic {
+	font-style: italic;
+}
+
+.main-button {
+	margin-top: 40px;
+}
+
+.main-scroll {
+	position: absolute;
+	left: calc(50% - 25px);
+	bottom: 30px;
+	width: 50px;
+}
